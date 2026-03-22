@@ -1,6 +1,6 @@
 # Maternal Health Risk Prediction
 
-## 📌 Overview
+## Overview
 
 This project analyzes maternal health data to predict risk levels during pregnancy using a combination of **Big Data processing (PySpark)**, **SQL-based analysis**, and **Machine Learning (Neural Networks)**.
 
@@ -26,7 +26,7 @@ The goal is to identify high-risk cases and support data-driven decision-making 
 
 ---
 
-## 🧠 Technologies
+## Technologies
 
 * Python
 * PySpark (Big Data processing)
