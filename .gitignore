@@ -1,0 +1,12 @@
+# This is a Python .gitignore file
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+logs/
+*.log
+.DS_Store
+.env
+*.egg-info/
+*.egg
+*.whl
+*.pyc
