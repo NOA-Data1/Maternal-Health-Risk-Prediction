@@ -1,45 +1,86 @@
-# Project Title
-MSc Data Analytics Project
+# Maternal Health Risk Prediction
 
-## Overview
-This project is a comprehensive analysis focusing on ... (provide an extensive overview of what the project is about).
+## 📌 Overview
 
-## Dataset Description
-The dataset used in this project consists of ... (provide details about the dataset, its source, and any relevant information on data cleaning processes).
+This project analyzes maternal health data to predict risk levels during pregnancy using a combination of **Big Data processing (PySpark)**, **SQL-based analysis**, and **Machine Learning (Neural Networks)**.
 
-## Technologies
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+The goal is to identify high-risk cases and support data-driven decision-making in healthcare.
 
-## Methodology
-1. **Data Collection**: Details on how the data was collected.
-2. **Data Preprocessing**: Steps taken to preprocess the data, including missing value treatment and normalization.
-3. **Exploratory Data Analysis (EDA)**: Insights gathered from initial data exploration.
-4. **Model Training**: Description of how models are trained.
-5. **Model Evaluation**: Metrics and methodology employed to evaluate the models.
+---
 
-## Models
-- Model A: Description of Model A and its usage.
-- Model B: Description of Model B and its usage.
+## 📊 Dataset Description
 
-## Results
-- Summary of the results achieved through the modeling process, including visual representations if applicable.
+* Source: UCI Machine Learning Repository
+* Link: https://archive.ics.uci.edu/dataset/863/maternal+health+risk
+* License: CC BY 4.0
 
-## Insights
-- Key insights derived from the analysis.
+### Features:
 
-## Limitations
-- Discussion of the limitations faced during the project.
+* Age
+* SystolicBP
+* DiastolicBP
+* BS (Blood Glucose)
+* BodyTemp
+* HeartRate
+* RiskLevel (target variable)
 
-## Instructions
-1. Clone the repository.
-2. Install the required libraries using `pip install -r requirements.txt`.
-3. Open the Jupyter Notebook in your browser to run the analysis.
+---
+
+## 🧠 Technologies
+
+* Python
+* PySpark (Big Data processing)
+* Spark SQL (data querying)
+* Pandas
+* Scikit-learn
+* TensorFlow / Keras (MLP)
+* Matplotlib & Seaborn
+* Jupyter Notebook
+
+---
+
+## ⚙️ Methodology
+
+### Data Processing (PySpark & SQL)
+
+* Data ingestion using Spark
+* SQL queries for analysis
+
+### Data Preparation
+
+* No missing values
+* Label encoding
+* Feature scaling
+
+### Modeling
+
+* Train/test split
+* Neural Network (MLP)
+
+---
+
+## 📈 Key Insights
+
+* Blood glucose strongly impacts risk
+* Blood pressure variables are correlated
+* Heart rate has low influence
+
+---
+
+## How to Run
+
+```bash
+git clone https://github.com/NOA-Data1/Maternal-Health-Risk-Prediction.git
+cd Maternal-Health-Risk-Prediction
+pip install -r requirements.txt
+jupyter notebook
+```
+
+---
+
+## 👩‍💻 Author
+
+Nayane Oliveira
 
 ## Date
 **Current Date and Time (UTC):** 2026-03-22 01:59:50
